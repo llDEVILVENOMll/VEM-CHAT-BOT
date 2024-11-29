@@ -75,10 +75,10 @@ async def shayri(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨𝚂𝚄𝙿𝙿𝙾𝚁𝚃✨", url=f"https://t.me/DNS_NETWORK"
+                        "• sᴜᴘᴘᴏꝛᴛ •", url=f"https://t.me/DNS_NETWORK"
                     ),
                     InlineKeyboardButton(
-                        "✨𝙾𝙵𝙵𝙸𝙲𝙴✨", url=f"https://t.me/Dns_Official_Channel"
+                        "• ᴜᴘᴅᴧᴛᴇ •", url=f"https://t.me/Dns_Official_Channel"
                     ),
                 ]
             ]
@@ -91,7 +91,7 @@ add_buttons = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="๏ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ๏",
+                text="❖ ᴧᴅᴅ мᴇ ʙᴧʙʏ ❖",
                 url=f"https://t.me/{DNSCHAT.username}?startgroup=true",
             )
         ]
