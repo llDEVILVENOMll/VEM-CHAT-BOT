@@ -7,24 +7,24 @@ from DNSCHAT import OWNER, DNSCHAT
 START_BOT = [
     [
         InlineKeyboardButton(
-            text="😍 ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ 😍",
+            text="❖ ᴧᴅᴅ мᴇ ʙᴧʙʏ ❖",
             url=f"https://t.me/{DNSCHAT.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=OWNER),
-        InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="• ❍ᴡɴᴇꝛ •", user_id=OWNER),
+        InlineKeyboardButton(text="• sᴜᴘᴘᴏꝛᴛ •", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
-        InlineKeyboardButton(text="« ғᴇᴀᴛᴜʀᴇs »", callback_data="HELP"),
+        InlineKeyboardButton(text="⌯ ғᴇᴧᴛᴜʀᴇs ⌯", callback_data="HELP"),
     ],
 ]
 
 
 DEV_OP = [
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=OWNER),
-        InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="• ❍ᴡɴᴇꝛ •", user_id=OWNER),
+        InlineKeyboardButton(text="• sᴜᴘᴘᴏꝛᴛ •", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
         InlineKeyboardButton(
@@ -44,7 +44,7 @@ DEV_OP = [
 PNG_BTN = [
     [
         InlineKeyboardButton(
-            text="😍 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 😍",
+            text="• ᴧᴅᴅ мᴇ ʙᴧʙʏ •",
             url=f"https://t.me/{DNSCHAT.username}?startgroup=true",
         ),
     ],
