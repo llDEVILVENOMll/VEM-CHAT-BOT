@@ -120,10 +120,10 @@ async def welcomejej(client, message: Message):
                         chat.photo.big_file_id, file_name=f"chatpp{chat.id}.png"
                     )
                     chat_photo = (
-                        groups_photo if groups_photo else "https://envs.sh/_2L.png"
+                        groups_photo if groups_photo else "https://files.catbox.moe/4itjd9.jpg"
                     )
                 except AttributeError:
-                    chat_photo = "https://envs.sh/_2L.png"
+                    chat_photo = "https://files.catbox.moe/4itjd9.jpg"
                 
                 count = await DNSCHAT.get_chat_members_count(chat.id)
                 chats = len(await get_served_chats())
@@ -302,7 +302,7 @@ async def ping(_, message: Message):
 
     ms = (datetime.now() - start).microseconds / 1000
     await loda.edit_text(
-        text=f"нey вαву!!\n{DNSCHAT.name} ᴄʜᴀᴛʙᴏᴛ ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n\n**➥** `{ms}` ms\n**➲ ᴄᴘᴜ:** {CPU}\n**➲ ʀᴀᴍ:** {RAM}\n**➲ ᴅɪsᴋ:** {DISK}\n**➲ ᴜᴘᴛɪᴍᴇ »** {UP}\n\n<b>||**๏ мαdє ωιтн ❣️ ву [ᴄᴜᴛɪᴇ ✯ ᴅᴠ](https://t.me/II_RAJPUT_SHIV_OP_II) **||</b>",
+        text=f"нey вαву!!\n{DNSCHAT.name} ᴄʜᴀᴛʙᴏᴛ ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n\n**➥** `{ms}` ms\n**➲ ᴄᴘᴜ:** {CPU}\n**➲ ʀᴀᴍ:** {RAM}\n**➲ ᴅɪsᴋ:** {DISK}\n**➲ ᴜᴘᴛɪᴍᴇ »** {UP}\n\n<b>||**๏ мαdє ωιтн ❣️ ву [ᴅɴs ✯ ᴏᴡɴᴇʀ](https://t.me/II_RAJPUT_SHIV_OP_II) **||</b>",
         reply_markup=InlineKeyboardMarkup(PNG_BTN),
     )
     if message.chat.type == ChatType.PRIVATE:
